@@ -1,10 +1,12 @@
 package com.rental.car.front.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreType;
 import lombok.Builder;
 import lombok.Getter;
 
 @Builder
 @Getter
+@JsonIgnoreType
 public class CarDto {
 
     private final Long id;
